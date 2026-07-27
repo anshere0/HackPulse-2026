@@ -1,51 +1,171 @@
-# ⚡ HackPulse 2026 - Hackathon Registration Website
+# 🚀 HackPulse 2026 – Hackathon Registration Website
 
-A clean, modern, accessible, and responsive website for **HackPulse 2026**, a 48-hour global developer hackathon.
+A modern, responsive **Hackathon Registration Website** built as part of a Frontend Development Challenge. The website provides participants with all the essential event information while delivering an engaging and user-friendly experience.
 
-Built with HTML5, CSS3, and ES6 Vanilla JavaScript for fast performance, zero external dependencies, and simple self-hosting.
-
----
-
-## 🚀 Sections Included
-1. **Home / Hero**: Title, event badge, countdown timer, key stats, and registration CTA.
-2. **About**: Event overview, mission, and 4 track cards.
-3. **Schedule**: Interactive day-by-day timeline (Day 1, Day 2, Day 3).
-4. **Prizes**: Tiered prize cards ($5,000 Grand Winner, $3,000 2nd Place, $1,500 3rd Place) + special track rewards.
-5. **Sponsors**: Platinum and Gold sponsor partner cards.
-6. **Registration Form**: Multi-field form with live validation and confirmation modal.
+🌐 **Live Demo:** https://hack-pulse-2026.vercel.app/ *(Update if your deployment URL differs)*
 
 ---
 
-## 🔥 Features
-- 🌙 **Dark / Light Theme Switcher**: Toggle theme preference with persistent `localStorage` memory.
-- ⏱️ **Live Countdown Timer**: Real-time clock counting down to launch.
-- 📅 **Interactive Schedule Filter Tabs**: Day 1 / Day 2 / Day 3 timeline switching.
-- 📝 **Live Form Validation & Toast Modal**: Field validation, regex checks, and submit modal.
-- ❓ **Interactive FAQ Accordion**: Expandable Q&A accordion.
+## 📌 Project Overview
+
+HackPulse 2026 is a fully responsive landing page designed for a fictional hackathon event. It includes all the mandatory sections required for participants to learn about the event and register through an interactive frontend form.
+
+The project focuses on clean UI/UX, responsive layouts, smooth animations, and an attractive modern design. The website is optimized for desktop, tablet, and mobile devices. :contentReference[oaicite:0]{index=0}
 
 ---
 
-## 💻 Running & Hosting
+## ✨ Features
 
-### Local Preview
-Simply open `index.html` in any browser, or run a local server:
+### Mandatory Sections
+- 🏠 Home
+- 📖 About
+- 📅 Schedule
+- 🏆 Prizes
+- 🤝 Sponsors
+- 📝 Registration Form (Frontend Only)
+
+### Bonus Features
+- 🌙 Dark Mode Toggle
+- ⏳ Live Countdown Timer
+- ✨ Smooth Scroll Animations
+- 📱 Fully Responsive Design
+- ✅ Client-side Form Validation
+- 🎨 Modern Glassmorphism UI
+- ⚡ Interactive Navigation
+- 🎯 Hover Effects & Micro Interactions
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Design
+- Vercel (Deployment)
+- Git & GitHub
+
+---
+
+## 📱 Responsive Design
+
+The website is fully responsive and optimized for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
+
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
+
 ```bash
-python -m http.server 3000
+git clone https://github.com/your-username/hackpulse-2026.git
 ```
-Then visit `http://localhost:3000`.
 
-### Self-Hosting
-Upload the project files (`index.html`, `styles.css`, `app.js`) to any web server (Apache, Nginx, GitHub Pages, Cpanel, or any static file host). No build step required!
+### Navigate to the Project
+
+```bash
+cd hackpulse-2026
+```
+
+### Run Locally
+
+Simply open the `index.html` file in your browser or use VS Code Live Server.
 
 ---
 
-## 📦 Upload to GitHub
+## 📂 Project Structure
 
-```bash
-git init
-git add .
-git commit -m "feat: HackPulse 2026 Hackathon website"
-git remote add origin <YOUR_GITHUB_REPO_URL>
-git branch -M main
-git push -u origin main
 ```
+HackPulse-2026/
+│
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── logos/
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+├── index.html
+└── README.md
+```
+
+*(Modify the structure if your project is different.)*
+
+---
+
+## 🎯 Implemented Requirements
+
+- ✅ Responsive UI
+- ✅ Modern & Clean Design
+- ✅ Home Section
+- ✅ About Section
+- ✅ Schedule Section
+- ✅ Prizes Section
+- ✅ Sponsors Section
+- ✅ Registration Form
+- ✅ GitHub Repository
+- ✅ Live Deployment
+
+---
+
+## 📸 Screenshots
+
+You can add screenshots here after uploading them.
+
+```
+screenshots/home.png
+screenshots/about.png
+screenshots/register.png
+```
+
+---
+
+## 🌍 Live Website
+
+**Vercel Deployment**
+
+https://hack-pulse-2026.vercel.app/
+
+---
+
+## 💻 GitHub Repository
+
+Replace with your repository link:
+
+```
+https://github.com/your-username/hackpulse-2026
+```
+
+---
+
+## 📈 Future Improvements
+
+- Backend Integration
+- Email Confirmation
+- Authentication
+- Database Storage
+- Team Registration
+- Payment Gateway
+- Admin Dashboard
+- QR Code Tickets
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Ansh Arora**
+
+---
+
+## 📄 License
+
+This project is developed for educational purposes as part of a Frontend Development Challenge.
