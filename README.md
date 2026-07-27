@@ -2,7 +2,7 @@
 
 A modern, responsive **Hackathon Registration Website** built as part of a Frontend Development Challenge. The website provides participants with all the essential event information while delivering an engaging and user-friendly experience.
 
-🌐 **Live Demo:** https://hack-pulse-2026.vercel.app/ *(Update if your deployment URL differs)*
+🌐 **Live Demo:** https://hack-pulse-2026.vercel.app/ 
 
 ---
 
