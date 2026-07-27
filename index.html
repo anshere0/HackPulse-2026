@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackPulse 2026 | Global Developer Hackathon</title>
+    <meta name="description" content="Join HackPulse 2026 - A 48-hour global hackathon bringing together developers, designers, and innovators to build the future of software. $10,000+ in prizes!">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar" id="top">
+        <div class="container nav-container">
+            <a href="#top" class="nav-logo">
+                <span class="logo-badge">⚡</span>
+                <span class="logo-text">Hack<span class="highlight">Pulse</span> <span class="year">2026</span></span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#schedule" class="nav-link">Schedule</a>
+                <a href="#prizes" class="nav-link">Prizes</a>
+                <a href="#sponsors" class="nav-link">Sponsors</a>
+                <a href="#register" class="nav-link btn-nav">Register Now</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+                    <span class="theme-icon sun-icon">☀️</span>
+                    <span class="theme-icon moon-icon">🌙</span>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="container hero-container">
+                <div class="hero-badge">
+                    <span class="pulse-dot"></span>
+                    <span>October 24–26, 2026 • Virtual & Hybrid</span>
+                </div>
+                <h1 class="hero-title">Build. Innovate.<br><span class="gradient-text">Shape the Future.</span></h1>
+                <p class="hero-subtitle">
+                    A 48-hour global hackathon uniting creators, developers, and visionaries to solve real-world challenges with cutting-edge software.
+                </p>
+
+                <!-- Countdown Timer (Bonus Feature) -->
+                <div class="countdown-wrapper">
+                    <div class="countdown-header">Hackathon Starts In</div>
+                    <div class="countdown-grid" id="countdown-timer">
+                        <div class="count-box">
+                            <span class="count-number" id="days">00</span>
+                            <span class="count-label">Days</span>
+                        </div>
+                        <div class="count-box">
+                            <span class="count-number" id="hours">00</span>
+                            <span class="count-label">Hours</span>
+                        </div>
+                        <div class="count-box">
+                            <span class="count-number" id="minutes">00</span>
+                            <span class="count-label">Minutes</span>
+                        </div>
+                        <div class="count-box">
+                            <span class="count-number" id="seconds">00</span>
+                            <span class="count-label">Seconds</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-cta-group">
+                    <a href="#register" class="btn btn-primary btn-lg">
+                        Register Your Team
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                    <a href="#schedule" class="btn btn-outline btn-lg">Explore Schedule</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-num">$10,000+</span>
+                        <span class="stat-desc">Cash & Prizes</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-num">500+</span>
+                        <span class="stat-desc">Participants</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-num">48</span>
+                        <span class="stat-desc">Hours of Coding</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="section-subtitle">Why Join HackPulse?</span>
+                    <h2 class="section-title">Turn Ideas Into Reality</h2>
+                    <p class="section-description">
+                        Whether you are an experienced software engineer, designer, or beginner hacker, HackPulse 2026 provides the platform, mentorship, and resources to build impactful products.
+                    </p>
+                </div>
+
+                <div class="tracks-grid">
+                    <div class="track-card">
+                        <div class="track-icon">🤖</div>
+                        <h3>AI & Intelligent Agents</h3>
+                        <p>Build next-gen autonomous workflows, natural language tools, and intelligent data systems.</p>
+                        <span class="track-tag">Track 01</span>
+                    </div>
+                    <div class="track-card">
+                        <div class="track-icon">🌐</div>
+                        <h3>Web & Open Source</h3>
+                        <p>Create lightning-fast web platforms, accessible developer tools, and open source utilities.</p>
+                        <span class="track-tag">Track 02</span>
+                    </div>
+                    <div class="track-card">
+                        <div class="track-icon">🌱</div>
+                        <h3>Climate & Social Impact</h3>
+                        <p>Develop technology solutions addressing sustainability, education, healthcare, and community welfare.</p>
+                        <span class="track-tag">Track 03</span>
+                    </div>
+                    <div class="track-card">
+                        <div class="track-icon">⚡</div>
+                        <h3>Wildcard & Innovation</h3>
+                        <p>No limits! Bring your wildest hack ideas to life across mobile, hardware, or experimental software.</p>
+                        <span class="track-tag">Track 04</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Schedule Section (Interactive Bonus Feature) -->
+        <section class="section schedule-section" id="schedule">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Event Timeline</span>
+                    <h2 class="section-title">Hackathon Schedule</h2>
+                    <p class="section-description">Plan your 48 hours with interactive keynotes, workshops, and mentor check-ins.</p>
+                </div>
+
+                <!-- Interactive Schedule Tabs -->
+                <div class="schedule-tabs" role="tablist">
+                    <button class="tab-btn active" data-tab="day1" role="tab" aria-selected="true">
+                        <span>Day 1</span>
+                        <small>Oct 24 • Opening & Hacking</small>
+                    </button>
+                    <button class="tab-btn" data-tab="day2" role="tab" aria-selected="false">
+                        <span>Day 2</span>
+                        <small>Oct 25 • Workshops & Mentorship</small>
+                    </button>
+                    <button class="tab-btn" data-tab="day3" role="tab" aria-selected="false">
+                        <span>Day 3</span>
+                        <small>Oct 26 • Demos & Awards</small>
+                    </button>
+                </div>
+
+                <!-- Timeline Contents -->
+                <div class="timeline-container">
+                    <!-- Day 1 Panel -->
+                    <div class="timeline-panel active" id="day1">
+                        <div class="timeline-item">
+                            <div class="time-badge">09:00 AM EST</div>
+                            <div class="timeline-content">
+                                <span class="badge tag-main">Opening Ceremony</span>
+                                <h4>Welcome & Opening Keynote</h4>
+                                <p>Kickoff meeting, theme unveiling, sponsor highlights, and rules overview.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time-badge">10:30 AM EST</div>
+                            <div class="timeline-content">
+                                <span class="badge tag-team">Team Formation</span>
+                                <h4>Team Matchmaking & Mixer</h4>
+                                <p>Connect with fellow participants, pitch quick ideas, and finalize team roles.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time-badge">12:00 PM EST</div>
+                            <div class="timeline-content">
+                                <span class="badge tag-hack">Hacking Commences</span>
+                                <h4>Hacking Begins!</h4>
+                                <p>Repositories open! Start building your project and set up dev environments.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time-badge">05:00 PM EST</div>
+                            <div class="timeline-content">
+                                <span class="badge tag-workshop">Technical Session</span>
+                                <h4>API & Cloud Deployment Workshop</h4>
+                                <p>Learn quick-start deployment strategies using Vercel, Netlify, and Cloud APIs.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Day 2 Panel -->
+                    <div class="timeline-panel" id="day2">
+                        <div class="timeline-item">
+                            <div class="time-badge">10:00 AM EST</div>
+                            <div class="timeline-content">
+                                <span class="badge tag-mentor">Mentorship</span>
+                                <h4>1-on-1 Mentor Office Hours</h4>
+                                <p>Get feedback on architecture, code debugging, and pitch strategy from industry experts.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time-badge">02:00 PM EST</div>
+                            <div class="timeline-content">
+                                <span class="badge tag-workshop">UI/UX Workshop</span>
+                                <h4>Designing Effective Demo Dashboards</h4>
+                                <p>Tips for creating engaging project presentations and slick user interfaces.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time-badge">08:00 PM EST</div>
+                            <div class="timeline-content">
+                                <span class="badge tag-hack">Checkpoint</span>
+                                <h4>Mid-Way Progress Check-in</h4>
+                                <p>Optional progress submission and fun midnight trivia session.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Day 3 Panel -->
+                    <div class="timeline-panel" id="day3">
+                        <div class="timeline-item">
+                            <div class="time-badge">12:00 PM EST</div>
+                            <div class="timeline-content">
+                                <span class="badge tag-deadline">Submission</span>
+                                <h4>Project Submission Deadline</h4>
+                                <p>Freeze code, submit project repo link, demo video, and documentation.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time-badge">02:00 PM EST</div>
+                            <div class="timeline-content">
+                                <span class="badge tag-main">Judging</span>
+                                <h4>Live Pitch Sessions & Judging</h4>
+                                <p>Top finalist teams present live to our panel of judges.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time-badge">05:00 PM EST</div>
+                            <div class="timeline-content">
+                                <span class="badge tag-main">Closing</span>
+                                <h4>Closing & Prize Ceremony</h4>
+                                <p>Announcement of category winners, prize distribution, and closing remarks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prizes Section -->
+        <section class="section prizes-section" id="prizes">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="section-subtitle">Rewards & Recognition</span>
+                    <h2 class="section-title">Prize Pool ($10,000+)</h2>
+                    <p class="section-description">Generous cash rewards, cloud credits, mentorship opportunities, and exclusive swag.</p>
+                </div>
+
+                <div class="prizes-grid">
+                    <div class="prize-card silver">
+                        <div class="prize-rank">🥈 2nd Place</div>
+                        <div class="prize-amount">$3,000</div>
+                        <p class="prize-subtitle">Runner Up Winner</p>
+                        <ul class="prize-features">
+                            <li>✓ $3,000 Cash Prize</li>
+                            <li>✓ $1,000 Cloud Credits</li>
+                            <li>✓ Fast-track Interview Vouchers</li>
+                            <li>✓ Custom Winner Trophy & Swag Box</li>
+                        </ul>
+                    </div>
+
+                    <div class="prize-card gold featured">
+                        <div class="featured-badge">Grand Winner</div>
+                        <div class="prize-rank">🥇 1st Place</div>
+                        <div class="prize-amount">$5,000</div>
+                        <p class="prize-subtitle">Grand Champion</p>
+                        <ul class="prize-features">
+                            <li>✓ $5,000 Cash Prize</li>
+                            <li>✓ $2,500 Cloud & API Credits</li>
+                            <li>✓ Pitch to Venture Partners</li>
+                            <li>✓ Winner Plaque + Premium Tech Kit</li>
+                        </ul>
+                    </div>
+
+                    <div class="prize-card bronze">
+                        <div class="prize-rank">🥉 3rd Place</div>
+                        <div class="prize-amount">$1,500</div>
+                        <p class="prize-subtitle">Second Runner Up</p>
+                        <ul class="prize-features">
+                            <li>✓ $1,500 Cash Prize</li>
+                            <li>✓ $500 Cloud Credits</li>
+                            <li>✓ Mentorship Session</li>
+                            <li>✓ HackPulse Participant Swag</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="extra-prizes">
+                    <div class="extra-prize-item">
+                        <div class="extra-icon">💡</div>
+                        <div>
+                            <h4>Best AI Innovation</h4>
+                            <p>$1,000 + AI API Credits</p>
+                        </div>
+                    </div>
+                    <div class="extra-prize-item">
+                        <div class="extra-icon">🎨</div>
+                        <div>
+                            <h4>Best UI / UX Design</h4>
+                            <p>$750 + Design Tool Subscriptions</p>
+                        </div>
+                    </div>
+                    <div class="extra-prize-item">
+                        <div class="extra-icon">🌟</div>
+                        <div>
+                            <h4>Best Beginner Team</h4>
+                            <p>$500 + Developer Mentorship</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sponsors Section -->
+        <section class="section sponsors-section" id="sponsors">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="section-subtitle">Backed By Industry Leaders</span>
+                    <h2 class="section-title">Our Partners & Sponsors</h2>
+                    <p class="section-description">Empowering the developer ecosystem with mentorship, APIs, and prizes.</p>
+                </div>
+
+                <div class="sponsors-group">
+                    <h4 class="sponsor-tier-title">Platinum Partners</h4>
+                    <div class="sponsor-grid">
+                        <div class="sponsor-card">
+                            <span class="sponsor-logo">⚡ CloudScale</span>
+                        </div>
+                        <div class="sponsor-card">
+                            <span class="sponsor-logo">🌐 DevPulse</span>
+                        </div>
+                        <div class="sponsor-card">
+                            <span class="sponsor-logo">🤖 NexusAI</span>
+                        </div>
+                    </div>
+
+                    <h4 class="sponsor-tier-title">Gold Partners</h4>
+                    <div class="sponsor-grid gold-grid">
+                        <div class="sponsor-card">
+                            <span class="sponsor-logo">🛡️ SecureStack</span>
+                        </div>
+                        <div class="sponsor-card">
+                            <span class="sponsor-logo">🚀 LaunchBase</span>
+                        </div>
+                        <div class="sponsor-card">
+                            <span class="sponsor-logo">📦 DataFlow</span>
+                        </div>
+                        <div class="sponsor-card">
+                            <span class="sponsor-logo">🔮 CodeCraft</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration Form Section (Mandatory Frontend Form) -->
+        <section class="section register-section" id="register">
+            <div class="container">
+                <div class="register-wrapper">
+                    <div class="section-header">
+                        <span class="section-subtitle">Join HackPulse 2026</span>
+                        <h2 class="section-title">Registration Form</h2>
+                        <p class="section-description">Fill out your details below to register your team or register as an individual hacker.</p>
+                    </div>
+
+                    <form id="registration-form" class="registration-form" novalidate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fullName">Full Name <span class="req">*</span></label>
+                                <input type="text" id="fullName" name="fullName" placeholder="e.g. Alex Morgan" required>
+                                <span class="error-msg" id="fullName-error">Please enter your full name.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address <span class="req">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="alex@example.com" required>
+                                <span class="error-msg" id="email-error">Please enter a valid email address.</span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="teamName">Team Name <span class="req">*</span></label>
+                                <input type="text" id="teamName" name="teamName" placeholder="e.g. AlgoRhythms" required>
+                                <span class="error-msg" id="teamName-error">Please enter a team name.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="teamSize">Team Size <span class="req">*</span></label>
+                                <select id="teamSize" name="teamSize" required>
+                                    <option value="">Select team size</option>
+                                    <option value="1">Solo Hacker (1 member)</option>
+                                    <option value="2">Duo (2 members)</option>
+                                    <option value="3">Trio (3 members)</option>
+                                    <option value="4">Full Team (4 members)</option>
+                                </select>
+                                <span class="error-msg" id="teamSize-error">Please select team size.</span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="track">Primary Track Selection <span class="req">*</span></label>
+                                <select id="track" name="track" required>
+                                    <option value="">Select your target track</option>
+                                    <option value="AI & Intelligent Agents">AI & Intelligent Agents</option>
+                                    <option value="Web & Open Source">Web & Open Source</option>
+                                    <option value="Climate & Social Impact">Climate & Social Impact</option>
+                                    <option value="Wildcard & Innovation">Wildcard & Innovation</option>
+                                </select>
+                                <span class="error-msg" id="track-error">Please select a primary track.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="tshirt">T-Shirt Size <span class="req">*</span></label>
+                                <select id="tshirt" name="tshirt" required>
+                                    <option value="">Select T-shirt size</option>
+                                    <option value="S">Small (S)</option>
+                                    <option value="M">Medium (M)</option>
+                                    <option value="L">Large (L)</option>
+                                    <option value="XL">Extra Large (XL)</option>
+                                    <option value="XXL">XXL</option>
+                                </select>
+                                <span class="error-msg" id="tshirt-error">Please select T-shirt size.</span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="githubUrl">GitHub Profile URL</label>
+                                <input type="url" id="githubUrl" name="githubUrl" placeholder="https://github.com/username">
+                                <span class="error-msg" id="githubUrl-error">Please enter a valid GitHub URL.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="linkedinUrl">LinkedIn Profile URL</label>
+                                <input type="url" id="linkedinUrl" name="linkedinUrl" placeholder="https://linkedin.com/in/username">
+                                <span class="error-msg" id="linkedinUrl-error">Please enter a valid LinkedIn URL.</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="experience">Experience Level & Project Idea Brief</label>
+                            <textarea id="experience" name="experience" rows="3" placeholder="Tell us briefly about your background and what you plan to build..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="codeOfConduct" name="codeOfConduct" required>
+                                <span>I agree to the <a href="#faq">Hackathon Code of Conduct</a> and event guidelines. <span class="req">*</span></span>
+                            </label>
+                            <span class="error-msg" id="codeOfConduct-error">You must accept the Code of Conduct to register.</span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block btn-lg" id="submit-btn">
+                            Complete Registration
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section faq-section" id="faq">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="section-subtitle">Got Questions?</span>
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                </div>
+
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Who can participate in HackPulse 2026?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>HackPulse is open to university students, professional developers, designers, and tech enthusiasts worldwide! Beginners are warmly welcomed.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Is there any registration fee?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>No! HackPulse 2026 is 100% free to attend thanks to our generous sponsors and community partners.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Can I participate solo or do I need a team?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>You can participate individually or in teams of up to 4 members. If you don't have a team, join our pre-event Team Matchmaking mixer on Day 1!</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>What are the project submission requirements?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Projects must include a public GitHub/repository link, a brief description of what was built during the 48-hour window, and a 2-minute video demo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Registration Confirmation Modal (Bonus Feature) -->
+    <div class="modal-overlay" id="success-modal" aria-hidden="true">
+        <div class="modal-card">
+            <button class="modal-close" id="modal-close-btn">&times;</button>
+            <div class="modal-icon">🎉</div>
+            <h3>Registration Successful!</h3>
+            <p>Welcome to HackPulse 2026! We've received your registration details.</p>
+            <div class="modal-summary" id="modal-summary-content">
+                <!-- Injected via JS -->
+            </div>
+            <p class="modal-note">Check your inbox for confirmation & Discord community invite link.</p>
+            <button class="btn btn-primary btn-block" id="modal-ok-btn">Awesome, Let's Hack!</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#top" class="nav-logo">
+                    <span class="logo-badge">⚡</span>
+                    <span class="logo-text">Hack<span class="highlight">Pulse</span></span>
+                </a>
+                <p>Building the future, 48 hours at a time.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#prizes">Prizes</a>
+                <a href="#sponsors">Sponsors</a>
+                <a href="#register">Register</a>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 HackPulse. Built for Developers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
